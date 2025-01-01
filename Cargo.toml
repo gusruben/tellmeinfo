@@ -1,7 +1,16 @@
 [package]
 name = "tellmeinfo"
 version = "0.1.0"
-edition = "2021"
+authors = [ "Gus Ruben <gusruben@protonmail.com>" ]
+edition = "2024"
+description = "A simple way to automate system monitors for a variety of applications"
+keywords = ["automation", "shell", "pipeline", "script"]
+readme = "README.md"
+license = "MIT"
+
+[[bin]]
+name = "tmi"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.5.23", features = ["derive"] }
