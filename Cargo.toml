@@ -2,7 +2,7 @@
 name = "tellmeinfo"
 version = "0.1.0"
 authors = [ "Gus Ruben <gusruben@protonmail.com>" ]
-edition = "2024"
+edition = "2021"
 description = "A simple way to automate system monitors for a variety of applications"
 keywords = ["automation", "shell", "pipeline", "script"]
 readme = "README.md"
